@@ -15,7 +15,7 @@ const TestPage = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/api/external/fetch-all-users?websiteId=693eaa6fff467a42e8f40324`, {
+        const res = await fetch(`https://authiq.vercel.app/external/fetch-all-users?websiteId=69413520c2386764e4357ce5`, {
           method: "GET",
           credentials: "include", 
         });

@@ -4,7 +4,7 @@ const page = () => {
   return (
     <SignInButton
       provider="github"
-      websiteId="693eaa6fff467a42e8f40324"
+      websiteId="69413520c2386764e4357ce5"
       label="sign in"
       redirectUrl="/"
     />

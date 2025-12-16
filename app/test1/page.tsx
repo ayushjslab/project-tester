@@ -11,7 +11,7 @@ const Page = () => {
     const fetchData = async () => {
       try {
         const res = await fetch(
-          "http://localhost:3000/api/external/validate-user",
+          "https://authiq.vercel.app/api/external/validate-user",
           {
             method: "GET",
             credentials: "include",
