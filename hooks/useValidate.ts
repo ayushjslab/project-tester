@@ -15,9 +15,7 @@ export const useValidateUser = () => {
           ?.split("=")[1];
         
         if (!token) throw new Error("No auth token found");
-
-        console.log(token)
-
+        
         const res = await fetch(
           "https://authiq.vercel.app/api/external/validate-user",
           {
